@@ -14,7 +14,6 @@ public class Sieve {
 		boolean[] numbers = new boolean[n];
 		for (int i = 1; i < n; i++) {
 			numbers[i] = true;
-
 		}
 		for (int k = 2; k < Math.sqrt(n); k++) {
 			if (numbers[k] = true) {
